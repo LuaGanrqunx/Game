@@ -6,8 +6,9 @@ import java.util.Scanner;
 public class TestScanner01 {
 
 	public static void main(String[] args) {
-		// 測試Scanner的用法，及了解細部行為
-		// ? nextInt()的流程
+		// 這是一個較好的範例
+		// 非整數會提示
+		// 
 		System.out.println("測試Scanner....");
 		System.out.println("隨便寫一些數字");
 		Scanner sc = new Scanner(System.in);
@@ -16,7 +17,7 @@ public class TestScanner01 {
 				int id = sc.nextInt();
 				System.out.println("Your input: "+id);
 			} catch (InputMismatchException e) {
-				System.out.println("你輸錯了，先生!!");
+				System.out.println("請輸入整數!!");
 				sc.nextLine();
 			}
 		}
