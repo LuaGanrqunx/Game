@@ -1,4 +1,4 @@
-package game.guess_number.test;
+package game.guess_number;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
