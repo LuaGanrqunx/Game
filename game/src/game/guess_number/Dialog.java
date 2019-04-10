@@ -4,7 +4,14 @@ import java.util.Arrays;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
+/*
+ * 昇級版本：
+ * 使用Parsable & Validatable
+ */
+
 public class Dialog {
+	private Parsable parser;
+	private Validatable validator;
 
 	public static void main(String[] args) {
 		Dialog t = new Dialog();
